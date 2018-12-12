@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7978C13FA9910AB9FB0F7355 /* Pods_LilyNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4FC7852F6D54457EE753AAB /* Pods_LilyNetwork.framework */; };
+		A435461820550147002C063F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A435461720550147002C063F /* AppDelegate.swift */; };
+		A435461D20550147002C063F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A435461B20550147002C063F /* Main.storyboard */; };
+		A435461F20550148002C063F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A435461E20550148002C063F /* Assets.xcassets */; };
+		A435462220550148002C063F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A435462020550148002C063F /* LaunchScreen.storyboard */; };
+		A435462D20550148002C063F /* LilyNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A435462C20550148002C063F /* LilyNetworkTests.swift */; };
+		A435463820550148002C063F /* LilyNetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A435463720550148002C063F /* LilyNetworkUITests.swift */; };
+		A43546462055024D002C063F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A43546452055024C002C063F /* GoogleService-Info.plist */; };
+		A44E7BB8206E1D0A00430B76 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E7BB7206E1D0A00430B76 /* Const.swift */; };
+		A44E7BBA206E211200430B76 /* ActionSheetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E7BB9206E211200430B76 /* ActionSheetManager.swift */; };
+		A44E7BBC206E22D400430B76 /* ImageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E7BBB206E22D400430B76 /* ImageHandler.swift */; };
+		A44E7BBE206F29E200430B76 /* DataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E7BBD206F29E200430B76 /* DataHandler.swift */; };
+		A44E7BC320707E6E00430B76 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E7BC220707E6E00430B76 /* ProductViewController.swift */; };
+		A44E7BC62070968B00430B76 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E7BC52070968B00430B76 /* ProductTableViewCell.swift */; };
+		A46114B0207751B000D40AB4 /* SearchHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46114AF207751B000D40AB4 /* SearchHandler.swift */; };
+		A46114B22077630500D40AB4 /* ExtensionDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46114B12077630500D40AB4 /* ExtensionDate.swift */; };
+		A466271E20709F6B00403F10 /* StockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A466271D20709F6B00403F10 /* StockViewController.swift */; };
+		A46627202070A57F00403F10 /* ShippingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A466271F2070A57F00403F10 /* ShippingViewController.swift */; };
+		A46627222070B0AB00403F10 /* ShippingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46627212070B0AB00403F10 /* ShippingTableViewCell.swift */; };
+		A4AFB57720569EB10005CDD4 /* DaiGouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AFB57620569EB10005CDD4 /* DaiGouViewController.swift */; };
+		A4AFB57920569FB40005CDD4 /* DaiGouTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AFB57820569FB40005CDD4 /* DaiGouTableViewCell.swift */; };
+		A4AFB57B2056A4800005CDD4 /* XiaDanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AFB57A2056A4800005CDD4 /* XiaDanViewController.swift */; };
+		A4E38D332057F2E600AA43D6 /* ChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E38D322057F2E600AA43D6 /* ChooseViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A435462920550148002C063F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A435460C20550146002C063F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A435461320550147002C063F;
+			remoteInfo = LilyNetwork;
+		};
+		A435463420550148002C063F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A435460C20550146002C063F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A435461320550147002C063F;
+			remoteInfo = LilyNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B7A5F5D6C973D4A06AF4078 /* Pods-LilyNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LilyNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LilyNetwork/Pods-LilyNetwork.debug.xcconfig"; sourceTree = "<group>"; };
+		A14EA812CA6AD0A22478A79D /* Pods-LilyNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LilyNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-LilyNetwork/Pods-LilyNetwork.release.xcconfig"; sourceTree = "<group>"; };
+		A435461420550147002C063F /* LilyNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LilyNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A435461720550147002C063F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A435461C20550147002C063F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A435461E20550148002C063F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A435462120550148002C063F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A435462320550148002C063F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A435462820550148002C063F /* LilyNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LilyNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A435462C20550148002C063F /* LilyNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LilyNetworkTests.swift; sourceTree = "<group>"; };
+		A435462E20550148002C063F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A435463320550148002C063F /* LilyNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LilyNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A435463720550148002C063F /* LilyNetworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LilyNetworkUITests.swift; sourceTree = "<group>"; };
+		A435463920550148002C063F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A43546452055024C002C063F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A44E7BB7206E1D0A00430B76 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		A44E7BB9206E211200430B76 /* ActionSheetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetManager.swift; sourceTree = "<group>"; };
+		A44E7BBB206E22D400430B76 /* ImageHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHandler.swift; sourceTree = "<group>"; };
+		A44E7BBD206F29E200430B76 /* DataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHandler.swift; sourceTree = "<group>"; };
+		A44E7BC220707E6E00430B76 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		A44E7BC52070968B00430B76 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		A46114AF207751B000D40AB4 /* SearchHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHandler.swift; sourceTree = "<group>"; };
+		A46114B12077630500D40AB4 /* ExtensionDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDate.swift; sourceTree = "<group>"; };
+		A466271D20709F6B00403F10 /* StockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewController.swift; sourceTree = "<group>"; };
+		A466271F2070A57F00403F10 /* ShippingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShippingViewController.swift; sourceTree = "<group>"; };
+		A46627212070B0AB00403F10 /* ShippingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShippingTableViewCell.swift; sourceTree = "<group>"; };
+		A4AFB57620569EB10005CDD4 /* DaiGouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaiGouViewController.swift; sourceTree = "<group>"; };
+		A4AFB57820569FB40005CDD4 /* DaiGouTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaiGouTableViewCell.swift; sourceTree = "<group>"; };
+		A4AFB57A2056A4800005CDD4 /* XiaDanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XiaDanViewController.swift; sourceTree = "<group>"; };
+		A4E38D322057F2E600AA43D6 /* ChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseViewController.swift; sourceTree = "<group>"; };
+		D4FC7852F6D54457EE753AAB /* Pods_LilyNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LilyNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A435461120550147002C063F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7978C13FA9910AB9FB0F7355 /* Pods_LilyNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A435462520550148002C063F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A435463020550148002C063F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F3EA70DD06B39C8224A25A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B7A5F5D6C973D4A06AF4078 /* Pods-LilyNetwork.debug.xcconfig */,
+				A14EA812CA6AD0A22478A79D /* Pods-LilyNetwork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A435460B20550146002C063F = {
+			isa = PBXGroup;
+			children = (
+				A435461620550147002C063F /* LilyNetwork */,
+				A435462B20550148002C063F /* LilyNetworkTests */,
+				A435463620550148002C063F /* LilyNetworkUITests */,
+				A435461520550147002C063F /* Products */,
+				9F3EA70DD06B39C8224A25A2 /* Pods */,
+				BCE2B401369C0D96BDE857DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A435461520550147002C063F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A435461420550147002C063F /* LilyNetwork.app */,
+				A435462820550148002C063F /* LilyNetworkTests.xctest */,
+				A435463320550148002C063F /* LilyNetworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A435461620550147002C063F /* LilyNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				A43546452055024C002C063F /* GoogleService-Info.plist */,
+				A435461720550147002C063F /* AppDelegate.swift */,
+				A44E7BB7206E1D0A00430B76 /* Const.swift */,
+				A46114B12077630500D40AB4 /* ExtensionDate.swift */,
+				A44E7BB4206DFEED00430B76 /* Views */,
+				A44E7BB3206DFEE300430B76 /* Controllers */,
+				A44E7BB6206DFF1500430B76 /* Handlers */,
+				A435461E20550148002C063F /* Assets.xcassets */,
+				A435461B20550147002C063F /* Main.storyboard */,
+				A435462020550148002C063F /* LaunchScreen.storyboard */,
+				A435462320550148002C063F /* Info.plist */,
+			);
+			path = LilyNetwork;
+			sourceTree = "<group>";
+		};
+		A435462B20550148002C063F /* LilyNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				A435462C20550148002C063F /* LilyNetworkTests.swift */,
+				A435462E20550148002C063F /* Info.plist */,
+			);
+			path = LilyNetworkTests;
+			sourceTree = "<group>";
+		};
+		A435463620550148002C063F /* LilyNetworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A435463720550148002C063F /* LilyNetworkUITests.swift */,
+				A435463920550148002C063F /* Info.plist */,
+			);
+			path = LilyNetworkUITests;
+			sourceTree = "<group>";
+		};
+		A44E7BB2206DFDB700430B76 /* DaiGou */ = {
+			isa = PBXGroup;
+			children = (
+				A4AFB57620569EB10005CDD4 /* DaiGouViewController.swift */,
+				A4AFB57A2056A4800005CDD4 /* XiaDanViewController.swift */,
+				A4E38D322057F2E600AA43D6 /* ChooseViewController.swift */,
+				A466271D20709F6B00403F10 /* StockViewController.swift */,
+				A466271F2070A57F00403F10 /* ShippingViewController.swift */,
+			);
+			path = DaiGou;
+			sourceTree = "<group>";
+		};
+		A44E7BB3206DFEE300430B76 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A44E7BB2206DFDB700430B76 /* DaiGou */,
+				A44E7BC120707E4F00430B76 /* Product */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A44E7BB4206DFEED00430B76 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A44E7BB9206E211200430B76 /* ActionSheetManager.swift */,
+				A44E7BB5206DFF0800430B76 /* DaiGou */,
+				A44E7BC42070966600430B76 /* Product */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A44E7BB5206DFF0800430B76 /* DaiGou */ = {
+			isa = PBXGroup;
+			children = (
+				A4AFB57820569FB40005CDD4 /* DaiGouTableViewCell.swift */,
+				A46627212070B0AB00403F10 /* ShippingTableViewCell.swift */,
+			);
+			path = DaiGou;
+			sourceTree = "<group>";
+		};
+		A44E7BB6206DFF1500430B76 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				A44E7BBB206E22D400430B76 /* ImageHandler.swift */,
+				A44E7BBD206F29E200430B76 /* DataHandler.swift */,
+				A46114AF207751B000D40AB4 /* SearchHandler.swift */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		A44E7BC120707E4F00430B76 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				A44E7BC220707E6E00430B76 /* ProductViewController.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		A44E7BC42070966600430B76 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				A44E7BC52070968B00430B76 /* ProductTableViewCell.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		BCE2B401369C0D96BDE857DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4FC7852F6D54457EE753AAB /* Pods_LilyNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A435461320550147002C063F /* LilyNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A435463C20550148002C063F /* Build configuration list for PBXNativeTarget "LilyNetwork" */;
+			buildPhases = (
+				CF7D42D29CA88CB52D6E8DB3 /* [CP] Check Pods Manifest.lock */,
+				A435461020550147002C063F /* Sources */,
+				A435461120550147002C063F /* Frameworks */,
+				A435461220550147002C063F /* Resources */,
+				31C7DA9F85175BCE1E6B9A57 /* [CP] Embed Pods Frameworks */,
+				D59D61F216E4D31A67AB759B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LilyNetwork;
+			productName = LilyNetwork;
+			productReference = A435461420550147002C063F /* LilyNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A435462720550148002C063F /* LilyNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A435463F20550148002C063F /* Build configuration list for PBXNativeTarget "LilyNetworkTests" */;
+			buildPhases = (
+				A435462420550148002C063F /* Sources */,
+				A435462520550148002C063F /* Frameworks */,
+				A435462620550148002C063F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A435462A20550148002C063F /* PBXTargetDependency */,
+			);
+			name = LilyNetworkTests;
+			productName = LilyNetworkTests;
+			productReference = A435462820550148002C063F /* LilyNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A435463220550148002C063F /* LilyNetworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A435464220550148002C063F /* Build configuration list for PBXNativeTarget "LilyNetworkUITests" */;
+			buildPhases = (
+				A435462F20550148002C063F /* Sources */,
+				A435463020550148002C063F /* Frameworks */,
+				A435463120550148002C063F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A435463520550148002C063F /* PBXTargetDependency */,
+			);
+			name = LilyNetworkUITests;
+			productName = LilyNetworkUITests;
+			productReference = A435463320550148002C063F /* LilyNetworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A435460C20550146002C063F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					A435461320550147002C063F = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					A435462720550148002C063F = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = A435461320550147002C063F;
+					};
+					A435463220550148002C063F = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = A435461320550147002C063F;
+					};
+				};
+			};
+			buildConfigurationList = A435460F20550146002C063F /* Build configuration list for PBXProject "LilyNetwork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A435460B20550146002C063F;
+			productRefGroup = A435461520550147002C063F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A435461320550147002C063F /* LilyNetwork */,
+				A435462720550148002C063F /* LilyNetworkTests */,
+				A435463220550148002C063F /* LilyNetworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A435461220550147002C063F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43546462055024D002C063F /* GoogleService-Info.plist in Resources */,
+				A435462220550148002C063F /* LaunchScreen.storyboard in Resources */,
+				A435461F20550148002C063F /* Assets.xcassets in Resources */,
+				A435461D20550147002C063F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A435462620550148002C063F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A435463120550148002C063F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31C7DA9F85175BCE1E6B9A57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LilyNetwork/Pods-LilyNetwork-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ALCameraViewController/ALCameraViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework",
+				"${BUILT_PRODUCTS_DIR}/BarcodeScanner/BarcodeScanner.framework",
+				"${BUILT_PRODUCTS_DIR}/FTPopOverMenu/FTPopOverMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/LYEmptyView/LYEmptyView.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView-Objective-C/SCLAlertView_Objective_C.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/zhPopupController/zhPopupController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ALCameraViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActionSheetPicker_3_0.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BarcodeScanner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FTPopOverMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LYEmptyView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView_Objective_C.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/zhPopupController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LilyNetwork/Pods-LilyNetwork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF7D42D29CA88CB52D6E8DB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LilyNetwork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D59D61F216E4D31A67AB759B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LilyNetwork/Pods-LilyNetwork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A435461020550147002C063F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A435461820550147002C063F /* AppDelegate.swift in Sources */,
+				A4AFB57B2056A4800005CDD4 /* XiaDanViewController.swift in Sources */,
+				A4AFB57920569FB40005CDD4 /* DaiGouTableViewCell.swift in Sources */,
+				A4E38D332057F2E600AA43D6 /* ChooseViewController.swift in Sources */,
+				A44E7BBE206F29E200430B76 /* DataHandler.swift in Sources */,
+				A4AFB57720569EB10005CDD4 /* DaiGouViewController.swift in Sources */,
+				A44E7BBA206E211200430B76 /* ActionSheetManager.swift in Sources */,
+				A466271E20709F6B00403F10 /* StockViewController.swift in Sources */,
+				A44E7BC62070968B00430B76 /* ProductTableViewCell.swift in Sources */,
+				A46114B22077630500D40AB4 /* ExtensionDate.swift in Sources */,
+				A44E7BBC206E22D400430B76 /* ImageHandler.swift in Sources */,
+				A44E7BC320707E6E00430B76 /* ProductViewController.swift in Sources */,
+				A46627222070B0AB00403F10 /* ShippingTableViewCell.swift in Sources */,
+				A44E7BB8206E1D0A00430B76 /* Const.swift in Sources */,
+				A46114B0207751B000D40AB4 /* SearchHandler.swift in Sources */,
+				A46627202070A57F00403F10 /* ShippingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A435462420550148002C063F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A435462D20550148002C063F /* LilyNetworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A435462F20550148002C063F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A435463820550148002C063F /* LilyNetworkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A435462A20550148002C063F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A435461320550147002C063F /* LilyNetwork */;
+			targetProxy = A435462920550148002C063F /* PBXContainerItemProxy */;
+		};
+		A435463520550148002C063F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A435461320550147002C063F /* LilyNetwork */;
+			targetProxy = A435463420550148002C063F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A435461B20550147002C063F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A435461C20550147002C063F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A435462020550148002C063F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A435462120550148002C063F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A435463A20550148002C063F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A435463B20550148002C063F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A435463D20550148002C063F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B7A5F5D6C973D4A06AF4078 /* Pods-LilyNetwork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W8M759R4E;
+				INFOPLIST_FILE = LilyNetwork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lily.LilyNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A435463E20550148002C063F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A14EA812CA6AD0A22478A79D /* Pods-LilyNetwork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W8M759R4E;
+				INFOPLIST_FILE = LilyNetwork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lily.LilyNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A435464020550148002C063F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W8M759R4E;
+				INFOPLIST_FILE = LilyNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lily.LilyNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LilyNetwork.app/LilyNetwork";
+			};
+			name = Debug;
+		};
+		A435464120550148002C063F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W8M759R4E;
+				INFOPLIST_FILE = LilyNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lily.LilyNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LilyNetwork.app/LilyNetwork";
+			};
+			name = Release;
+		};
+		A435464320550148002C063F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W8M759R4E;
+				INFOPLIST_FILE = LilyNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lily.LilyNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LilyNetwork;
+			};
+			name = Debug;
+		};
+		A435464420550148002C063F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W8M759R4E;
+				INFOPLIST_FILE = LilyNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lily.LilyNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LilyNetwork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A435460F20550146002C063F /* Build configuration list for PBXProject "LilyNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A435463A20550148002C063F /* Debug */,
+				A435463B20550148002C063F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A435463C20550148002C063F /* Build configuration list for PBXNativeTarget "LilyNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A435463D20550148002C063F /* Debug */,
+				A435463E20550148002C063F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A435463F20550148002C063F /* Build configuration list for PBXNativeTarget "LilyNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A435464020550148002C063F /* Debug */,
+				A435464120550148002C063F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A435464220550148002C063F /* Build configuration list for PBXNativeTarget "LilyNetworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A435464320550148002C063F /* Debug */,
+				A435464420550148002C063F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A435460C20550146002C063F /* Project object */;
+}

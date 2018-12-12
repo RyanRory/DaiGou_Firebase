@@ -1,0 +1,6 @@
+framework module Pods_LilyNetwork {
+  umbrella header "Pods-LilyNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}
